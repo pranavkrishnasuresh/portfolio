@@ -205,7 +205,7 @@ const Navbar = () => {
                 <MobileMenuLinks href='#education' onClick={() => {
                     setOpen(!open)
                 }}>Education</MobileMenuLinks>
-                <GitHubButton style={{ padding: '10px 16px', background: `${theme.primary}`, color: 'white', width: 'max-content' }} href="/" target="_blank">Github Profile</GitHubButton>
+                <GitHubButton style={{ padding: '10px 16px', background: `${theme.primary}`, color: 'white', width: 'max-content' }} href="https://github.com/pranavkrishnasuresh" target="_blank">Github Profile</GitHubButton>
             </MobileMenu>}
         </Nav>
     );
