@@ -11,8 +11,7 @@ export const Bio = {
   description:
     "I'm a Computer Science student at Georgia Tech (Class of 2026) with experience and research in machine learning and software development.",
   github: "https://github.com/pranavkrishnasuresh",
-  resume:
-    "", //need to update
+  resume: "https://drive.google.com/file/d/1JLd0IVj3y8h16vC4mXVaIJ0ZlZm8Eo1_/view?usp=sharing", //updated
   linkedin: "https://www.linkedin.com/in/pranavkrishnasuresh/",
 };
 
@@ -208,7 +207,7 @@ export const projects = [
     title: "Atlas - The College Guide",
     date: "Nov 2022",
     description:
-      "IOS app recognized by US Congresswoman Lucy McBath as the winner of the COngressional App Challenge. Developed to assist high school students in the college application process. Personalies information about resources and clubs based on a student's interests.",
+      "iOS app recognized by US Congresswoman Lucy McBath as the winner of the Congressional App Challenge. Developed to assist high school students in the college application process. Personalies information about resources and clubs based on a student's interests.",
     image:
       "https://static.wixstatic.com/media/a3845d_0f9f4954db31466498958691cb9c7059~mv2.png/v1/fill/w_440,h_328,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/Internship%20header.png",
     tags: [
