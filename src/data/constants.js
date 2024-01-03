@@ -11,7 +11,7 @@ export const Bio = {
   description:
     "I'm a Computer Science student at Georgia Tech (Class of 2026) with experience and research in machine learning and software development.",
   github: "https://github.com/pranavkrishnasuresh",
-  resume: "https://drive.google.com/file/d/1JLd0IVj3y8h16vC4mXVaIJ0ZlZm8Eo1_/view?usp=sharing", //updated
+  resume: "https://drive.google.com/file/d/1DjFczucHkn0ZyKZ6FzIc3VstZLLqxaQL/view?usp=sharing", //updated
   linkedin: "https://www.linkedin.com/in/pranavkrishnasuresh/",
 };
 
@@ -125,7 +125,25 @@ export const skills = [
 
 export const experiences = [
   {
-    id: 0,
+
+    {
+      id: 0,
+      img: "https://seeklogo.com/images/U/university-of-cambridge-logo-E6ED593FBF-seeklogo.com.png",
+      role: "Research Intern",
+      company: "University of Cambridge - Cambridge, England (Remote)",
+      date: "Nov 2022 - Jan 2023",
+      desc: "Created a machine learning model for Sanskrit Word Segmentation using Natural Language Processing with CNN and RNN frameworks. Achieved 92% validation accuracy.",
+      skills: [
+        "Python",
+        "NLP",
+        "Deep Learning",
+        "VS Code",
+        "Git"
+      ],
+      //doc: "https://drive.google.com/file/d/1U3nyPkXapuW08n-eUBXvNPAhfVQQsZOM/view?usp=sharing",
+  
+    },
+    id: 1,
     img: "https://www.gatech.edu/themes/custom/gatech/images/georgia-tech-logo.jpg",
     role: "Research Intern",
     company: "Georgia Tech Research Institute - Atlanta, Georgia",
@@ -143,7 +161,7 @@ export const experiences = [
     //doc: "https://www.scriptajournal.org/uploads/1/3/9/7/139783056/suresh___automating_robotic_alkerhlgiuheriurhngeiurm_to_move_stem_cell_wall_plates-2.pdf",
   },
   {
-    id: 1,
+    id: 2,
     img: "https://seeklogo.com/images/U/university-of-cambridge-logo-E6ED593FBF-seeklogo.com.png",
     role: "Research Intern",
     company: "University of Cambridge - Cambridge, England (Remote)",
