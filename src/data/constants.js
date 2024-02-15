@@ -11,7 +11,7 @@ export const Bio = {
   description:
     "I'm a Computer Science student at Georgia Tech (Class of 2026) with experience and research in machine learning and software development.",
   github: "https://github.com/pranavkrishnasuresh",
-  resume: "https://drive.google.com/file/d/1DjFczucHkn0ZyKZ6FzIc3VstZLLqxaQL/view?usp=sharing", //updated
+  resume: "https://drive.google.com/file/d/1KDMFQB4vjfMDkPefFSXhsJsC-p6R1a21/view?usp=sharing", //updated
   linkedin: "https://www.linkedin.com/in/pranavkrishnasuresh/",
 };
 
@@ -124,8 +124,6 @@ export const skills = [
 ];
 
 export const experiences = [
-  {
-
     {
       id: 0,
       img: "https://seeklogo.com/images/U/university-of-cambridge-logo-E6ED593FBF-seeklogo.com.png",
@@ -143,6 +141,7 @@ export const experiences = [
       //doc: "https://drive.google.com/file/d/1U3nyPkXapuW08n-eUBXvNPAhfVQQsZOM/view?usp=sharing",
   
     },
+    {
     id: 1,
     img: "https://www.gatech.edu/themes/custom/gatech/images/georgia-tech-logo.jpg",
     role: "Research Intern",
