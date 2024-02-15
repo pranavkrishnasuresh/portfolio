@@ -185,8 +185,8 @@ export const education = [
     school: "Georgia Institute of Technology",
     date: "Aug 2023 - May 2026",
     Grade: "N/A",
-    desc: "Activites and Societies: Data Science @ GT, RoboJackets, Hindu Yuva",
-    degree: "Bachelor of Science - Computer Science",
+    desc: "Activites and Societies: Quantum Computing, RoboJackets, Quantitative Trading",
+    degree: "Major: Computer Science (AI + SysArc), Minor: Math",
   },
   {
     id: 1,
