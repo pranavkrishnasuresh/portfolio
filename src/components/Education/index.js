@@ -82,7 +82,7 @@ const index = () => {
             <Wrapper>
                 <Title>Education</Title>
                 <Desc>
-                    I am currently a sophomore student at Georgia Tech.
+                    {/* I am currently a sophomore student at Georgia Tech. */}
                 </Desc>
                 <TimelineSection>
                     <Timeline>

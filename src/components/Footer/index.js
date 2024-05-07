@@ -101,7 +101,7 @@ function Footer() {
           <SocialMediaIcon href="tel:+16789834420"> <PhoneIcon /></SocialMediaIcon>
         </SocialMediaIcons>
         <Copyright>
-          &copy; 2023 Pranavkrishna Suresh. All rights reserved.
+          &copy; 2024 Pranavkrishna Suresh. All rights reserved.
         </Copyright>
 
       </FooterWrapper>
