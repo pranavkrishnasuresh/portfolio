@@ -11,7 +11,8 @@ export const Bio = {
   description:
     "I'm a Computer Science student at Georgia Tech (Class of 2026) with experience and research in machine learning and software development.",
   github: "https://github.com/pranavkrishnasuresh",
-  resume: "https://drive.google.com/file/d/1KDMFQB4vjfMDkPefFSXhsJsC-p6R1a21/view?usp=sharing", //updated
+  // resume: "https://www.dropbox.com/scl/fo/i3f8i2gmd6nj8wm9r3ml2/AG4i8fwSkRsM9jhLI3tdeIU?rlkey=hp31i1hhi7cqggncghbi1uamo&dl=0", //updated
+  resume: require("./resume.pdf"),
   linkedin: "https://www.linkedin.com/in/pranavkrishnasuresh/",
 };
 
