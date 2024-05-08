@@ -2,4 +2,4 @@
 
 Built with React, hosted by GitHub
 
-View webste at https://pranavkrishnasuresh.github.io/portfolio/
+View my portfolio at https://portfolio-three-zeta-49.vercel.app
