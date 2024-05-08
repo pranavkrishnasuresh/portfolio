@@ -12,6 +12,7 @@ import Projects from './components/Projects';
 import ProjectDetails from "./components/ProjectDetails";
 import Footer from "./components/Footer";
 import { BrowserRouter as Router } from "react-router-dom";
+import { SpeedInsights } from "@vercel/speed-insights/react"
 
 
 const Body = styled.div`
@@ -39,6 +40,7 @@ function App() {
           <About />
           <Hero />
           < Wrapper>
+            <SpeedInsights />
             <Education />
             <Skills />
             <Experience />
