@@ -85,14 +85,9 @@ export const skills = [
     title: "Others",
     skills: [
       {
-        name: "Git",
-        image:
-          "https://camo.githubusercontent.com/fbfcb9e3dc648adc93bef37c718db16c52f617ad055a26de6dc3c21865c3321d/68747470733a2f2f7777772e766563746f726c6f676f2e7a6f6e652f6c6f676f732f6769742d73636d2f6769742d73636d2d69636f6e2e737667",
-      },
-      {
         name: "GitHub",
         image:
-          "https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png",
+          "https://wallpapers.com/images/hd/git-hub-logo-octocat-0cnj7st3a27u7gsc.png",
       },
       {
         name: "Docker",
@@ -113,11 +108,6 @@ export const skills = [
         name: "Xcode",
         image:
           "https://upload.wikimedia.org/wikipedia/en/5/56/Xcode_14_icon.png",
-      },
-      {
-        name: "Latex",
-        image:
-          "https://static-00.iconduck.com/assets.00/latex-icon-2048x1568-881nd6o4.png",
       }
 
     ],
@@ -125,11 +115,47 @@ export const skills = [
 ];
 
 export const experiences = [
+
     {
       id: 0,
+      img: "https://media.licdn.com/dms/image/D4E0BAQE0sB1SSrjWKQ/company-logo_200_200/0/1696794789606?e=1723075200&v=beta&t=GjxK_LpvEq3jNKD2IjITFKZEGHUEZCtVjJvksQbu_Dc",
+      role: "Software Engineering Intern",
+      company: "Churn - New York City, NY (Remote)",
+      date: "Jan 2024 - May 2024",
+      desc: "Developed machine learning models to analyze credit card data for optimal benefits recommendations and UI/UX for Churn's iOS app",
+      skills: [
+        "Python",
+        "ReactJS",
+        "SQL",
+        "Express",
+        "Git"
+      ],
+
+    },
+
+    {
+      id: 1,
+      img: require("../images/GT.png"),
+      role: "Undergraduate Researcher",
+      company: "Georgia Tech - Atlanta, GA",
+      date: "Nov 2023 - May 2024",
+      desc: "Developed a suite of tools leveraging static and symbolic analysis, fuzzing, and verification methods to mitigate vulnerbilities within smart contracts",
+      skills: [
+        "Blockchain",
+        "LLM",
+        "Solidity",
+        "Truffle",
+        "Slither",
+        "Git"
+      ],
+
+    },
+
+    {
+      id: 2,
       img: "https://seeklogo.com/images/U/university-of-cambridge-logo-E6ED593FBF-seeklogo.com.png",
-      role: "Research Intern",
-      company: "University of Cambridge - Cambridge, England (Remote)",
+      role: "Student Researcher",
+      company: "University of Cambridge - Cambridge, UK (Remote)",
       date: "Nov 2022 - Jan 2023",
       desc: "Created a machine learning model for Sanskrit Word Segmentation using Natural Language Processing with CNN and RNN frameworks. Achieved 92% validation accuracy.",
       skills: [
@@ -143,10 +169,10 @@ export const experiences = [
   
     },
     {
-    id: 1,
-    img: "https://www.gatech.edu/themes/custom/gatech/images/georgia-tech-logo.jpg",
+    id: 3,
+    img: require("../images/GT.png"),
     role: "Research Intern",
-    company: "Georgia Tech Research Institute - Atlanta, Georgia",
+    company: "Georgia Tech Research Institute - Atlanta, GA",
     date: "June 2022 - July 2022",
     desc: "Worked as the software lead of my research project. My team developed an algorithm to automate the UR3 industrial robotic arm to move stem cell well plates in a clean room setting. We designed a custom universal well plate gripper-mechanism fitted to an arduino. Presented research at Invitational GTRI Conference and the technology is currently implemented at Georgia Tech's Marcus Nanotechnology Research Center. ",
     skills: [
@@ -159,50 +185,117 @@ export const experiences = [
       "Git"
     ],
     //doc: "https://www.scriptajournal.org/uploads/1/3/9/7/139783056/suresh___automating_robotic_alkerhlgiuheriurhngeiurm_to_move_stem_cell_wall_plates-2.pdf",
-  },
-  {
-    id: 2,
-    img: "https://seeklogo.com/images/U/university-of-cambridge-logo-E6ED593FBF-seeklogo.com.png",
-    role: "Research Intern",
-    company: "University of Cambridge - Cambridge, England (Remote)",
-    date: "Nov 2022 - Jan 2023",
-    desc: "Created a machine learning model for Sanskrit Word Segmentation using Natural Language Processing with CNN and RNN frameworks. Achieved 92% validation accuracy.",
-    skills: [
-      "Python",
-      "NLP",
-      "Deep Learning",
-      "VS Code",
-      "Git"
-    ],
-    //doc: "https://drive.google.com/file/d/1U3nyPkXapuW08n-eUBXvNPAhfVQQsZOM/view?usp=sharing",
-
-  },
+  }
 ];
 
 export const education = [
   {
     id: 0,
-    img: "https://www.gatech.edu/themes/custom/gatech/images/georgia-tech-logo.jpg",
+    img: require("../images/GT.png"),
     school: "Georgia Institute of Technology",
     date: "Aug 2023 - May 2026",
     Grade: "N/A",
-    desc: "Activites and Societies: Quantum Computing, RoboJackets, Quantitative Trading",
+    desc: "Activites and Societies: RoboJackets, Quantum Computing Association, Quantitative Trading",
     degree: "Major: Computer Science (AI + SysArc), Minor: Math",
   },
   {
     id: 1,
-    img: "https://uploads-ssl.webflow.com/65029a1fced1cb897f32b854/65029a1fced1cb897f32b893_fulton_logo_shield.png",
-    school: "Fulton Science Academy Private School",
+    img: require("../images/FSA.png"),
+    school: "Fulton Science Academy",
     date: "Aug 2019 - May 2023",
     grade: "104/100",
-    desc: "Activites and Societies: FBLA (President), Hack Club (President), Wizards of Wall Street (President), Spanish National Honor Society (President), Scripta and Astronomy Society for Research (Editor-in-Chief), Science Olympiad (Team Member)",
+    desc: "Activites and Societies: FBLA (President), Hack Club (President), Wizards of Wall Street (President), Spanish National Honor Society (President), Scripta and Astronomy Society for Research (Editor-in-Chief), Science Olympiad (Team Member), Student Council (Team Member)",
     degree: "High School Diploma",
   },
 ];
 
 export const projects = [
+
   {
-    id: 0,
+    id: 1,
+    title: "1Record",
+    date: "Mar 2024",
+    description:
+      "[Cornell Health Hackathon Finalist] Developed a software to utilize LLM's for context extraction from Electronic Health Records to leverage macro patient trends for identifying rare conditions and diseases",
+    image: require("../images/1Record.png"),
+    tags: [
+      "Python",
+      "JavaScript",
+      "Google Vertex AI",
+      "ReactJS",
+      "Git",
+    ],
+    category: "Machine Learning",
+    category: "app",
+    github: "https://github.com/pranavkrishnasuresh/1Record",
+    //webapp: "",
+  },
+
+  {
+    id: 2,
+    title: "QForce",
+    date: "Feb 2024",
+    description:
+      "[MIT Quantum Computing Hackathon Winner] Developed a Quantum Generative Adversarial Network coupled with a classical optimizer to demonstrate that qubits with a high fidelity can be achieved on Noisy Intermediate-Scale Quantum hardware using Quandela's quantum photonic chip",
+    image: "https://i.makeagif.com/media/2-07-2017/OuPnV8.gif",
+    tags: [
+      "Python",
+      "Perceval",
+      "Qiskit",
+      "Git",
+    ],
+    category: "Machine Learning",
+    github: "https://github.com/pranavkrishnasuresh/Photonic-Quantum-GAN",
+    //webapp: "",
+  },
+
+  {
+    id: 3,
+    title: "Therapute",
+    date: "Feb 2024",
+    description:
+      "[Google Solution Challenge Global Finalist] Developed a platform for athletes seeking physiotherapy to receive instant detailed feedback on their exercise form with a machine learning model utilizing time-warping and neural radiance fields (NeRF)",
+    image: require("../images/Therapute.png"),
+    tags: [
+      "Python",
+      "JavaScript",
+      "MediaPipe",
+      "Firebase",
+      "ReactJS",
+      "Flask",
+      "Google Cloud",
+      "Git"
+    ],
+    category: "Machine Learning",
+    category: "app",
+    github: "https://github.com/pranavkrishnasuresh/TheraputeMicrosoft",
+    //webapp: "",
+  },
+
+  {
+    id: 4,
+    title: "VigilAI",
+    date: "Nov 2023",
+    description:
+      "[AI ATL Hackathon Winner, Startup Exchange Summit 1st Place] Developed a software leveraging machine learning to identify deviations between police officer actions in bodycam footage and established protocls. VigilAI is currently in talks to be licensed to several police departments",
+    image: require("../images/Vigil.png"),
+    tags: [
+      "Python",
+      "JavaScript",
+      "NLP",
+      "Firebase",
+      "ReactJS",
+      "Google Cloud",
+      "Git"
+    ],
+    category: "Machine Learning",
+    category: "app",
+    github: "https://github.com/pranavkrishnasuresh/VigilAI",
+    //webapp: "",
+  },
+
+  {
+    id: 5,
     title: "Diagnosing Alzheimer's Disease with Audio-Based Speech Analysis",
     date: "Jan 2023 - May 2023",
     description:
@@ -221,7 +314,7 @@ export const projects = [
   },
 
   {
-    id: 1,
+    id: 6,
     title: "Atlas - The College Guide",
     date: "Nov 2022",
     description:
@@ -233,12 +326,12 @@ export const projects = [
       "Adobe Illustrator"
     ],
     category: "app",
-    github: "https://apps.apple.com/us/app/atlas-the-college-guide/id6444067812",
+    github: "https://mcbath.house.gov/2022/12/rep-lucy-mcbath-announces-winners-of-the-2022-congressional-app-challenge",
     //webapp: "",
   },
 
   {
-    id: 2,
+    id: 8,
     title: "Predicting Carbon Emission Levels",
     date: "June 2021 - July 2021",
     description:
@@ -252,13 +345,13 @@ export const projects = [
   },
 
   {
-    id: 3,
+    id: 9,
     title: "Detecting Distracted Driving using CNN Image Classification",
     date: "Dec 2020 - Jan 2021",
     description:
       "Developed a machine learning algorithm utilizing transfer learning on the VGG19 from ImageNet to classify distracted driving from data received from driver-facing cameras into 4 categories; using the radio, using the mirror, using a cup to drink, and using a smartphone.",
     image:
-      "https://camo.githubusercontent.com/d1f806fc49b6e0df215612315fdc233538d785599f79a000aa37e5d644d4191d/68747470733a2f2f6974737468657265616c64796c2e66696c65732e776f726470726573732e636f6d2f323031362f30362f6f75747075745f646562386f742e6769663f773d31303030",
+      "https://camo.githubusercontent.com/c0be337c0ebd614365900e6909e3dfb16466a21cec6a8a5a343820d4ad41973f/68747470733a2f2f6974737468657265616c64796c2e66696c65732e776f726470726573732e636f6d2f323031362f30362f6f75747075745f646562386f742e6769663f773d31303030",
     tags: [
       "Python",
       "VS Code",
@@ -270,9 +363,9 @@ export const projects = [
   },
 
  {
-    id: 4,
+    id: 7,
     title: "Diagnosing Viral and Bacterial Pneumonia using CNN Image Classification",
-    date: "Oct 2022 - Present",
+    date: "Oct 2022",
     description:
       "Developed a machine learning algorithm utilizing CNN architecture to classify viral and bacterial Pneumonia using high-specificity chest x-rays. Achieved a 91% validation accuracy, improvement over previous systems.",
     image:
@@ -285,5 +378,5 @@ export const projects = [
     category: "Machine Learning",
     github: "https://drive.google.com/file/d/1oBq_d0_8JhPpZqPHAmcRqJ9-U-hN0x03/view?usp=sharing",
     //webapp: "",
-  },
+  }
 ];
