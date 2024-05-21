@@ -116,8 +116,26 @@ export const skills = [
 
 export const experiences = [
 
+
     {
       id: 0,
+      img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSBth42QwX2uZ28bXT7jdorHhwccsNgsfjE6N6NHxWJgw&s",
+      role: "Software Engineering Intern, AI R&D",
+      company: "VDart - Atlanta, GA",
+      date: "May 2024 - Aug 2024",
+      desc: "Developed a ML model to optimize staffing applicant selection to streamline the hiring process and reduce bias. Introduced new AI-powered tools for VDart OS and automobile clients like Tesla and Toyota",
+      skills: [
+        "Python",
+        "ReactJS",
+        "SQL",
+        "Express",
+        "Git"
+      ],
+
+    },
+
+    {
+      id: 1,
       img: "https://media.licdn.com/dms/image/D4E0BAQE0sB1SSrjWKQ/company-logo_200_200/0/1696794789606?e=1723075200&v=beta&t=GjxK_LpvEq3jNKD2IjITFKZEGHUEZCtVjJvksQbu_Dc",
       role: "Software Engineering Intern",
       company: "Churn - New York City, NY (Remote)",
@@ -134,7 +152,7 @@ export const experiences = [
     },
 
     {
-      id: 1,
+      id: 2,
       img: require("../images/GT.png"),
       role: "Undergraduate Researcher",
       company: "Georgia Tech - Atlanta, GA",
@@ -152,7 +170,7 @@ export const experiences = [
     },
 
     {
-      id: 2,
+      id: 3,
       img: "https://seeklogo.com/images/U/university-of-cambridge-logo-E6ED593FBF-seeklogo.com.png",
       role: "Student Researcher",
       company: "University of Cambridge - Cambridge, UK (Remote)",
@@ -169,7 +187,7 @@ export const experiences = [
   
     },
     {
-    id: 3,
+    id: 4,
     img: require("../images/GT.png"),
     role: "Research Intern",
     company: "Georgia Tech Research Institute - Atlanta, GA",
