@@ -123,7 +123,7 @@ export const experiences = [
       role: "Software Engineering Intern, AI R&D",
       company: "VDart - Atlanta, GA",
       date: "May 2024 - Aug 2024",
-      desc: "Developed a ML model to optimize staffing applicant selection to streamline the hiring process and reduce bias. Introduced new AI-powered tools for VDart OS and automobile clients like Tesla and Toyota",
+      desc: "Developing a suite of AI tools leveraging LLM and RAG to increase staffing productivity by 30%. Developed ML model to optimize onsite/offsite worker allocation, achieving 14% department cost savings for clients including DataBricks, Tesla, and Toyota.",
       skills: [
         "Python",
         "ReactJS",
