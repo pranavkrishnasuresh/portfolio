@@ -11,7 +11,6 @@ export const Bio = {
   description:
     "I'm a Computer Science student at Georgia Tech (Class of 2026) with experience and research in machine learning and software development.",
   github: "https://github.com/pranavkrishnasuresh",
-  // resume: "https://www.dropbox.com/scl/fo/i3f8i2gmd6nj8wm9r3ml2/AG4i8fwSkRsM9jhLI3tdeIU?rlkey=hp31i1hhi7cqggncghbi1uamo&dl=0", //updated
   resume: require("./resume.pdf"),
   linkedin: "https://www.linkedin.com/in/pranavkrishnasuresh/",
 };
@@ -107,7 +106,7 @@ export const skills = [
       {
         name: "Xcode",
         image:
-          "https://upload.wikimedia.org/wikipedia/en/5/56/Xcode_14_icon.png",
+          "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/2f/b1/58/2fb15811-5b85-6fe8-fcd9-7c5d850afffe/Xcode-85-220-0-4-2x-sRGB.png/1200x630bb.png",
       }
 
     ],
@@ -136,7 +135,7 @@ export const experiences = [
 
     {
       id: 1,
-      img: "https://media.licdn.com/dms/image/D4E0BAQE0sB1SSrjWKQ/company-logo_200_200/0/1696794789606?e=1723075200&v=beta&t=GjxK_LpvEq3jNKD2IjITFKZEGHUEZCtVjJvksQbu_Dc",
+      img: "https://media.licdn.com/dms/image/v2/D4E0BAQE0sB1SSrjWKQ/company-logo_200_200/company-logo_200_200/0/1696794789606?e=1740009600&v=beta&t=J0D1Xpi9w3vqcWZgBEysoRh6CZoNRNR9t9Hg75aaITU",
       role: "Software Engineering Intern",
       company: "Churn - New York City, NY (Remote)",
       date: "Jan 2024 - May 2024",
@@ -213,8 +212,8 @@ export const education = [
     school: "Georgia Institute of Technology",
     date: "Aug 2023 - May 2026",
     Grade: "N/A",
-    desc: "Activites and Societies: RoboJackets, Quantum Computing Association, Quantitative Trading",
-    degree: "Major: Computer Science (AI + SysArc), Minor: Math",
+    desc: "Activites and Societies: Startup Exchange, Quantitative Trading",
+    degree: "BS, Computer Science (Artificial Intelligence, System Architecture)",
   },
   {
     id: 1,
@@ -295,7 +294,7 @@ export const projects = [
     title: "VigilAI",
     date: "Nov 2023",
     description:
-      "[AI ATL Hackathon Winner, Startup Exchange Summit 1st Place] Developed a software leveraging machine learning to identify deviations between police officer actions in bodycam footage and established protocls. VigilAI is currently in talks to be licensed to several police departments",
+      "VC-Funded startup delivering industry-leading bodycamera analysis solutions to police departments leveraging AI/Machine Learning. VigilAI currently holds exclusive contracts with several police departments.",
     image: require("../images/Vigil.png"),
     tags: [
       "Python",
@@ -369,7 +368,7 @@ export const projects = [
     description:
       "Developed a machine learning algorithm utilizing transfer learning on the VGG19 from ImageNet to classify distracted driving from data received from driver-facing cameras into 4 categories; using the radio, using the mirror, using a cup to drink, and using a smartphone.",
     image:
-      "https://camo.githubusercontent.com/c0be337c0ebd614365900e6909e3dfb16466a21cec6a8a5a343820d4ad41973f/68747470733a2f2f6974737468657265616c64796c2e66696c65732e776f726470726573732e636f6d2f323031362f30362f6f75747075745f646562386f742e6769663f773d31303030",
+      "https://itstherealdyl.com/wp-content/uploads/2016/06/output_deb8ot.gif",
     tags: [
       "Python",
       "VS Code",

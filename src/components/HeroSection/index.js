@@ -2,7 +2,9 @@ import React from "react";
 import styled from "styled-components";
 import { Bio } from '../../data/constants';
 import Typewriter from "typewriter-effect";
-import Krishna_Cropped_DP from "../../images/Krishna_Cropped_DP.png"
+// import Krishna_Cropped_DP from "../../images/Krishna_Cropped_DP.png"
+// import Krishna_Suit from "../../images/Krishna_Suit.jpeg"
+import Krishna_Willage from "../../images/Krishna_Willage.JPEG"
 
 const HeroContainer = styled.div`
   background: ${({ theme }) => theme.card_light};
@@ -225,7 +227,7 @@ const HeroSection = () => {
             </ResumeButton>
           </HeroLeftContainer>
           <HeroRightContainer id="Right">
-            <Image src={Krishna_Cropped_DP} alt="Hero" />
+            <Image src={Krishna_Willage} alt="Hero" />
           </HeroRightContainer>
         </HeroInnerContainer>
       </HeroContainer>
