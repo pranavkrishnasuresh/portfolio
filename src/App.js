@@ -13,7 +13,7 @@ import ProjectDetails from "./components/ProjectDetails";
 import Footer from "./components/Footer";
 import { BrowserRouter as Router } from "react-router-dom";
 import { SpeedInsights } from "@vercel/speed-insights/react"
-
+import { Analytics } from "@vercel/analytics/react"
 
 const Body = styled.div`
   background-color: ${({ theme }) => theme.bg};
@@ -52,6 +52,7 @@ function App() {
               <ProjectDetails openModal={openModal} setOpenModal={setOpenModal} />
             }
           </Wrapper>
+          <Analytics />
         </Body>
       </Router>
     </ThemeProvider>

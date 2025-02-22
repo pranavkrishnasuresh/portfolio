@@ -36,12 +36,12 @@ export const skills = [
       {
         name: "JavaScript",
         image:
-          "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6a/JavaScript-logo.png/800px-JavaScript-logo.png",
+          "https://static.vecteezy.com/system/resources/previews/027/127/463/non_2x/javascript-logo-javascript-icon-transparent-free-png.png",
       },
       {
         name: "TailwindCSS",
         image:
-          "https://cdn.icon-icons.com/icons2/2699/PNG/512/tailwindcss_logo_icon_167923.png",
+          "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/Tailwind_CSS_Logo.svg/2560px-Tailwind_CSS_Logo.svg.png",
       },
     ],
   },
@@ -135,7 +135,7 @@ export const experiences = [
 
     {
       id: 1,
-      img: "https://media.licdn.com/dms/image/v2/D4E0BAQE0sB1SSrjWKQ/company-logo_200_200/company-logo_200_200/0/1696794789606?e=1740009600&v=beta&t=J0D1Xpi9w3vqcWZgBEysoRh6CZoNRNR9t9Hg75aaITU",
+      img: "https://media.licdn.com/dms/image/v2/D4E0BAQE0sB1SSrjWKQ/company-logo_200_200/company-logo_200_200/0/1696794789606?e=2147483647&v=beta&t=sRw5X18PJxgoemQ6ZppDKfuiUZr_tum-h93lqk51yac",
       role: "Software Engineering Intern",
       company: "Churn - New York City, NY (Remote)",
       date: "Jan 2024 - May 2024",
